@@ -1,0 +1,22 @@
+/* @import "tailwindcss"; */
+@import "tailwindcss";
+
+body {
+    font-family: "Noto Nastaliq Urdu", serif;
+}
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+/* for urdu font */
+:root {
+    --urdu-font: "Noto Nastaliq Urdu", serif;
+}
+
+.urdu-container {
+    font-family: var(--urdu-font);
+    direction: rtl;
+    line-height: 2.2; 
+}
